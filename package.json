@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "lighthouse-badges": "^1.0.1"
+    "lighthouse-badges": "^1.0.7"
   },
   "scripts": {
-    "build": "lighthouse-badges --urls https://shortercatechism.app && mkdir -p dist/ && mv *svg dist"
+    "build": "mkdir -p dist && lighthouse-badges -o dist --urls https://shortercatechism.app"
   }
 }
